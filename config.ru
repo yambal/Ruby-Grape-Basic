@@ -3,3 +3,7 @@
 require_relative 'config/environment'
 
 run Rails.application
+
+
+#require './app/api/Twitter.rb'
+#run Twitter::API
