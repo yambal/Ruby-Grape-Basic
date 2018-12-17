@@ -14,7 +14,7 @@ module Test
       params do
         requires :name, type: String, desc: "twice str"
       end
-      get :twice do
+      get :name do
         {message: 'Hello ' + params[:name]}
       end
 
